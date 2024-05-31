@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> 
+                <h7>EDay's Habits</h7> </div>
+            <div class="auth-buttons">
+                <button class="btn" onclick="signUp()">Sign Up</button>
+                <button class="btn" onclick="logIn()">Log In</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Habit Tracker</h1>
+        <div class="taskbox">
+            <div class="section" id="tasks">
+                <h2>Tasks</h2>
+                <div class="habit-form">
+                    <input type="text" id="task-input" placeholder="New habit...">
+                    <button class="btn" onclick="addHabit()">Add Habit</button>
+                </div>
+                <div class="habit-list" id="task-list"></div>
+            </div>
+        </div>
+        <div class="quote">
+            <p>"The secret of your future is hidden in your daily routine." - Mike Murdock</p>
+        </div>
+        <div class="habit-graph">
+            <h2>Progress Graph</h2>
+            <canvas id="progressChart" width="600" height="400"></canvas>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./Javascript/app.js"></script>
+</body>
+</html>
+

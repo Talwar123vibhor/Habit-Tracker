@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b0c10 ; 
+    /*no-repeat center center fixed; */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    background-color: #66FCF1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin:auto;
+    border-radius:10px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.auth-buttons .btn {
+    background-color:#66FCF1 ;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-buttons .btn:hover {
+    background: #011212;
+    color:#ffffff;
+}
+
+main {
+    padding-top: 100px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section {
+    background-color: #C5C6C7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px #0000004d;
+    margin: auto;
+}
+
+.habit-form {
+    margin-bottom: 20px;
+    
+}
+
+.habit-form input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.habit-form .btn {
+    padding: 10px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.habit-form .btn:hover {
+    background: #87c594;
+}
+
+.habit-list .habit-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.habit-list .habit-item button {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.habit-list .habit-item button:hover {
+    background: #c82333;
+}
+
+.quote {
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.habit-graph {
+    background: #1F2833;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.habit-graph h2 {
+    margin-bottom: 20px;
+}
